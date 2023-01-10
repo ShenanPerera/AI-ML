@@ -1,8 +1,7 @@
 import os
 
-no = 1
-while no < 10:
-  print (no)
-  no = no + 1
-  
+def add(no1 , no2, no3):
+  sum = no1 + no2 + no3
+  return sum
 
+print (add(90,50,30))
