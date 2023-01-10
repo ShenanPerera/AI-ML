@@ -1,4 +1,2 @@
-import os
-
-print ("Hello Wolrd")
-
+print("Shenan Perera")
+print("Holy Cross College - Gampaha")
