@@ -1,7 +1,9 @@
 import os
 
-no1 = int(input("Enter number 1 : "))
-no2 = int(input("Enter number 2 : "))
-sum = no1 + no2
-
-print(sum)
+age = int(input("Enter your age : "))
+if age < 13:
+  print("Child")
+elif age < 20:
+  print("Teenager")
+else:
+  print("Adult")
