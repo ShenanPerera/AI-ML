@@ -1,6 +1,11 @@
-def average(no1 , no2 , no3):
-  average = (no1 + no2 + no3) / 3
-  return average
+def factorial(num):
+  result = 1
 
-print(average(3,4,5))
-print(average(10,20,30))
+  while (num >= 1):
+    result = result * num
+    num = num - 1
+
+  return result
+
+print(factorial(5))
+print(factorial(3))
