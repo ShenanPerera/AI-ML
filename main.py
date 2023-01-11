@@ -1,9 +1,6 @@
-count = 1
-total = 0
+def average(no1 , no2 , no3):
+  average = (no1 + no2 + no3) / 3
+  return average
 
-while(count <= 10):
-  num = int(input("Enter number: "))
-  total = total + num
-  count = count + 1
-
-print("Sum is " , total)
+print(average(3,4,5))
+print(average(10,20,30))
