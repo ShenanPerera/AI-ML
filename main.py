@@ -1,22 +1,18 @@
-count = 1 
-max_mark = 0
-min_mark = 100
-average = 0
-total = 0
+count = 1
 
-while count <= 10:
-  marks  = int(input("Enter marks : "))
-  if max_mark < marks:
-    max_mark = marks
+while count <= 5:
+  mark = int(input("Enter mark : "))
+  print(mark)
 
-  if min_mark > marks :
-    min_mark = marks
-    
-  total = total + marks
-  count = count + 1
-  
-average = total / 10
+  if mark > 75:
+    print("A")
+  elif mark >= 65:
+    print("B")
+  elif mark >= 55:
+    print("C")
+  elif mark >= 45:
+    print("S")
+  else:
+    print("F")
 
-print ("maximum mark : " , max_mark)
-print ("minimum mark : " , min_mark)
-print ("average mark : " , average)
+  count += 1
