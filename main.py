@@ -1,7 +1,9 @@
-length = int(input("Enter length : "))
-width = int(input("Enter width : "))
+count = 1
+total = 0
 
-if(length == width):
-  print("Square")
-else:
-  print("Rectangle")
+while(count <= 10):
+  num = int(input("Enter number: "))
+  total = total + num
+  count = count + 1
+
+print("Sum is " , total)
