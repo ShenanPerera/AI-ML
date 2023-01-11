@@ -1,18 +1,9 @@
-count = 1
+total = 0
 
-while count <= 5:
-  mark = int(input("Enter mark : "))
-  print(mark)
+num = int(input("Enter number : "))
 
-  if mark > 75:
-    print("A")
-  elif mark >= 65:
-    print("B")
-  elif mark >= 55:
-    print("C")
-  elif mark >= 45:
-    print("S")
-  else:
-    print("F")
+while num != -999:
+  total = total + num
+  num = int(input("Enter number  : "))
 
-  count += 1
+print("Total : " , total)
