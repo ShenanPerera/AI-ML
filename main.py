@@ -1,15 +1,12 @@
-def hello():
-  print("Hello World")
+import test as t
 
-def add(no1 , no2):
-  return no1 + no2
+t.hello()
 
-def divmod(no1 , no2):
-  return no1//no2 , no1 % no2
-
-
-hello()
-print(add(5,2))
-a,b = divmod(10,3)
+a,b,c,d = t.calc(40, 2)
 print(a)
 print(b)
+print(c)
+print(d)
+
+from test import hello as greet
+greet()
