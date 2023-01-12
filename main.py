@@ -1,21 +1,16 @@
-x = {"id" : 100 , "name" : "Saman" , "salary" : 50000.00}
+import numpy as np
 
-print(x)
-print(type(x))
+a = np.array([1,2,3,4,5])
+print(a)
 
-print(x["id"])
-print(x["name"])
-print(x["salary"])
+b = np.array([[1,2,3] ,[4,5,6]])
+print(b)
+print(b.shape)
 
-x["bonus"] = 1000.00
-print(x)
+print(b[0][1])
 
-x["salary"] = 60000.00
-print(x)
-
-x["address"] = {"no" : 51 , "street" : "1st Lane" , "town" : "Kandy"}
-
-x["telephone"] = {"0718567455" , "0778899345"}
+x = np.zeros([10,5] , dtype = int)
 print(x)
 
-print(x["address"]["town"])
+q = np.linspace(10,20,5)
+print(q)
