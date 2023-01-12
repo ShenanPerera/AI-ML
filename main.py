@@ -1,9 +1,11 @@
-total = 0
+x = ["apple" , "banana" , "berry" , 45, 56.7 , True]
 
-num = int(input("Enter number : "))
+print(x[0:2])
+print(x[1:3])
+print(x[3:6])
+print()
+print(x[3:])
+print(x[:3])
 
-while num != -999:
-  total = total + num
-  num = int(input("Enter number  : "))
-
-print("Total : " , total)
+print()
+print(x[0:5])
